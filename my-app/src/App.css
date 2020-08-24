@@ -1,0 +1,118 @@
+
+.App {
+  text-align: center;
+  background-image: url("../src/grapes.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.parent-container-1{
+  display: flex;
+  min-height: 50%;
+  position: fixed;
+  text-align: center;
+  background-position: center
+}
+
+.parent-container-2{
+  margin: 10%;
+  display: flex;
+  height: 50%;
+}
+
+.child-container-1{
+  align-self: flex-end;
+  text-align: center;
+  background-image: url("../src/grapes2.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  font-size: 50px;
+  text-align-last: center;
+}
+
+.child-container-2{
+  background-image: url("../src/gate1.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.child-container-3{
+  background-image: url("../src/grapes3.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.child-container-buttons{
+  margin: 2%;
+  font-size: 80px
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-style: "Times New Roman";
+  /* font-size: calc(10px + 2vmin); */
+  font-size: 150px;
+  color: whitesmoke;
+}
+
+.child-container{
+  width: 33.33%;
+  font-size: 50px;
+}
+
+.Website-login-button{
+  margin-left: 2500px;
+  /* flex-direction: row; */
+  font-size: 60px;
+  float: right;
+}
+
+.App-Body{
+  text-align: center;
+  background-image: url("../src/grapes.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 75%;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
